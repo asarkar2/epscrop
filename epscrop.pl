@@ -9,7 +9,7 @@ use File::Copy ;
 our($scriptname);
 $scriptname = basename($0) ;
 my $author = 'Anjishnu Sarkar' ;
-my $version = "0.2" ;
+my $version = "0.3" ;
 
 my $gs = 'gs' ;
     $gs = "gswin32c" if $^O eq 'MSWin32'; 
